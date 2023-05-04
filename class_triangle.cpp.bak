@@ -1,10 +1,10 @@
-п»ї#include "class_figure.h"
+#include "class_figure.h"
 #include "class_triangle.h"
 
 Triangle::Triangle()
 {
     sides_count = 3;
-    name = "РўСЂРµСѓРіРѕР»СЊРЅРёРє";
+    name = "Треугольник";
     length_side_a = 10;
     length_side_b = 20;
     length_side_c = 30;
@@ -69,12 +69,12 @@ bool Triangle::check() {
 void Triangle::print_info() {
     std::cout << get_name() << std::endl;
     if (check() == 1) {
-        std::cout << "РџСЂР°РІРёР»СЊРЅР°СЏ" << std::endl;
+        std::cout << "Правильная" << std::endl;
     }
     else {
-        std::cout << "РќРµРїСЂР°РІРёР»СЊРЅР°СЏ" << std::endl;
+        std::cout << "Неправильная" << std::endl;
     }
-    std::cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕСЂРѕРЅ: " << get_sides_count() << std::endl;
-    std::cout << "РЎС‚РѕСЂРѕРЅС‹: " << " a = " << get_lenght_side_a() << " b = " << get_lenght_side_b() << " c = " << get_lenght_side_c() << std::endl;
-    std::cout << "РЈРіР»С‹: " << " Рђ = " << get_value_angle_A() << " B = " << get_value_angle_B() << " C = " << get_value_angle_C() << std::endl << std::endl;
+    std::cout << "Количество сторон: " << get_sides_count() << std::endl;
+    std::cout << "Стороны: " << " a = " << get_lenght_side_a() << " b = " << get_lenght_side_b() << " c = " << get_lenght_side_c() << std::endl;
+    std::cout << "Углы: " << " А = " << get_value_angle_A() << " B = " << get_value_angle_B() << " C = " << get_value_angle_C() << std::endl << std::endl;
 };

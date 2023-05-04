@@ -1,4 +1,4 @@
-﻿#include "class_figure.h"
+#include "class_figure.h"
 #include "class_triangle.h"
 #include "class_right_triangle.h"
 #include "class_isosceles_triangle.h"

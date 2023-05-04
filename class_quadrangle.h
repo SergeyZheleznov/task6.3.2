@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include "class_figure.h"
+#include "class_triangle.h"
 
 class Quadrangle : public Triangle
 {

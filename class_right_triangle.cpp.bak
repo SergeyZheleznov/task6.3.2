@@ -1,10 +1,10 @@
-п»ї#include "class_figure.h"
+#include "class_figure.h"
 #include "class_triangle.h"
 #include "class_right_triangle.h"
 
 Right_triangle::Right_triangle()
 {
-    name = "РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
+    name = "Прямоугольный треугольник";
     value_angle_C = 90;
 };
 
